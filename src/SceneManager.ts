@@ -12,10 +12,4 @@ export class SceneManager {
     this.currentScene = newScene;
     app.stage.addChild(this.currentScene);
   }
-
-  //   update(delta: number) {
-  //     if (this.currentScene) {
-  //       this.currentScene.update(delta);
-  //     }
-  //   }
 }

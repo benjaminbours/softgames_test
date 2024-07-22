@@ -59,8 +59,8 @@ export class IntroScene extends Container {
   };
 
   // clean up
-  destroy() {
+  destroy = () => {
     super.destroy();
     window.removeEventListener("resize", this.positionMenuItems);
-  }
+  };
 }

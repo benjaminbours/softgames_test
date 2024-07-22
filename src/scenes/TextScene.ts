@@ -50,8 +50,8 @@ export class TextScene extends Container {
     this.addChild(txt);
   }
 
-  destroy() {
+  destroy = () => {
     clearInterval(this.intervalId);
     super.destroy();
-  }
+  };
 }
