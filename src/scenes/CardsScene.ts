@@ -5,7 +5,7 @@ import texturePath from "../../assets/card_back.jpg";
 export class CardsScene extends Container {
   private cards: Sprite[] = [];
   private initialStackCoordinates = { x: 100, y: 200 };
-  private finalStackCoordinates = { x: 600, y: 200 };
+  private finalStackCoordinates = { x: 100, y: 500 };
 
   constructor(private app: Application) {
     super();
@@ -19,6 +19,7 @@ export class CardsScene extends Container {
     Assets.load(texturePath).then(() => {
       for (let i = 0; i < 144; i++) {
         const card = Sprite.from(texturePath);
+        card.setSize(100, 150);
         card.x = this.initialStackCoordinates.x;
         card.y = this.initialStackCoordinates.y - i * 0.2; // Adjust y position slightly for each card
         this.cards.push(card);
