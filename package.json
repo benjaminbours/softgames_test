@@ -1,0 +1,21 @@
+{
+  "name": "softgames_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "pixi.js": "^8.2.5",
+    "stats.js": "^0.17.0"
+  }
+}
