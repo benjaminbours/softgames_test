@@ -58,8 +58,9 @@ export class IntroScene extends Container {
     });
   };
 
-  //   // clean up
-  //   destroy() {
-  //     window.removeEventListener("resize", this.positionMenuItems);
-  //   }
+  // clean up
+  destroy() {
+    super.destroy();
+    window.removeEventListener("resize", this.positionMenuItems);
+  }
 }
