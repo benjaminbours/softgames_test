@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div#stats {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
+  user-select: none;
+}
+
+div#stats canvas {
+  width: 100%;
+}
