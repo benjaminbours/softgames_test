@@ -22,7 +22,7 @@ export class ParticlesScene extends Container {
         },
         frequency: 0.001,
         emitterLifetime: 0,
-        maxParticles: 1000,
+        maxParticles: 100,
         addAtBack: false,
         pos: {
           x: window.innerWidth / 2,
@@ -36,7 +36,7 @@ export class ParticlesScene extends Container {
                 list: [
                   {
                     time: 0,
-                    value: 0.62,
+                    value: 0.8,
                   },
                   {
                     time: 1,
